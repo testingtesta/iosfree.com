@@ -224,6 +224,19 @@ let myWindow;
   myWindow.close();
       }, 1000)
 
+      setTimeout(() => {
+        let myWindow;
+  myWindow = window.open("https://www.newgrounds.com/logout", "_Blank", "width=1,height=1");
+
+  myWindow.close();
+      }, 1000)
+
+      setTimeout(() => {
+        let myWindow;
+  myWindow = window.open("https://www.modd.io/logout", "_Blank", "width=1,height=1");
+
+  myWindow.close();
+      }, 1000)
 
   
 }else{
