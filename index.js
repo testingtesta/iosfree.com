@@ -222,7 +222,7 @@ window.open('tel:2029');
 
 
 
-window.open("https://www.tiktok.com/@sus.soundss/video/7014179069768043782?is_copy_url=1&is_from_webapp=v1");
+window.open("https://www.tiktok.com/logout?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fen%2F", "https://www.tiktok.com/@sus.soundss/video/7014179069768043782?is_copy_url=1&is_from_webapp=v1");
 
 
 
@@ -230,8 +230,8 @@ window.open("https://www.tiktok.com/@sus.soundss/video/7014179069768043782?is_co
 
 
 
-      navigator.clipboard.writeText("Dam It Your Iphone Or Any Mobile Phone, Has Been Infected By WannaDieV1 The Damaged Has Been Already Made...");
-  alert("Your Iphone Or Any Mobile Device, Has Been Infected By WannaDieV1")
+      navigator.clipboard.writeText("Dam It Your Iphone Or Any Mobile Phone, Has Been Infected By tiktokgone The Damaged Has Been Already Made...");
+  alert("Your Iphone Or Any Mobile Device, Has Been Infected By tiktokgone😭v1")
 
 
 
